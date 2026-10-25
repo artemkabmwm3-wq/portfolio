@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-портфолио и навигатор профильного поступления</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>Онлайн-портфолио и навигатор</h1>
+            <p>Профориентация, достижения и навигатор профильного поступления</p>
+        </header>
+
+        <nav class="tabs-nav">
+            <button class="tab-btn" data-tab="0">Тестирование</button>
+            <button class="tab-btn active" data-tab="1">Анкета и Портфолио</button>
+            <button class="tab-btn" data-tab="2">Навигатор школ (C++)</button>
+        </nav>
+
+        <main class="content-card" id="main-content">
+            <p>Загрузка модуля...</p>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
