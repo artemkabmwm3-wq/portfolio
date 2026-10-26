@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#080c14">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Онлайн-портфолио и навигатор профильного поступления</title>
+
+    <!-- Поисковые мета-теги (SEO) -->
+    <meta name="description" content="Онлайн-портфолио и навигатор профильного поступления ученика 8 Д класса. Олимпиады, предпрофили, расчет школ C++ WebAssembly.">
+    <meta name="keywords" content="Онлайн-портфолио, портфолио ученика 8 д, Дубянский Артём, навигатор профильного поступления, Бауманская инженерная школа 1580, Инженеры будущего">
+    <meta name="author" content="Дубянский Артём">
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Шапка приложения -->
+        <header class="app-header">
+            <h1>Онлайн-портфолио</h1>
+            <p>Профориентация, достижения и навигатор профильного поступления</p>
+            <div id="pwa-install-banner" style="display: none; margin-top: 10px;">
+                <button id="pwa-install-btn" class="btn-secondary" style="font-size: 12px; padding: 6px 14px; border-color: #3b82f6; color: #60a5fa;">
+                    📲 Установить как приложение на экран телефона
+                </button>
+            </div>
+        </header>
+
+        <!-- Навигация по вкладкам -->
+        <nav class="tabs-nav">
+            <button class="tab-btn" data-tab="0">Тестирование</button>
+            <button class="tab-btn active" data-tab="1">Анкета и Портфолио</button>
+            <button class="tab-btn" data-tab="2">Навигатор школ (C++)</button>
+        </nav>
+
+        <!-- Основной контент -->
+        <main class="content-card" id="main-content">
+            <h2>Загрузка модуля...</h2>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
